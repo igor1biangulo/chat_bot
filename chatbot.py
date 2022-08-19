@@ -1,7 +1,7 @@
 import telebot
 
 
-CHAVE_API = "5477328735:AAFApmt21_y8qoRGdQGAAiJkPgru81Z7EXo"
+CHAVE_API = "sua chave api"
 bot = telebot.TeleBot(CHAVE_API)
 
 @bot.message_handler(commands=["opcao2"])
